@@ -1,6 +1,6 @@
 # 테스트 케이스 숫자 표시
 test_case = int(input())
-for test in range(1, test_case+1):
+for test in range(test_case+1):
 # a사 = W리터*p원
 # b사 = Q 원(R리터 이하인 경우), 
 #       (W-R)*S+Q(R리터 이상인 경우)
@@ -22,4 +22,4 @@ for test in range(1, test_case+1):
     else:
         B = (W -R)*S + Q
 #결과 출력하기
-    print(f'#{test} {min(A, B)}')
+print(f'#{test} {min(A, B)}')
